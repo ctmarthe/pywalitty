@@ -1,9 +1,17 @@
-# `pywal2alacritty`
+# `pywaltty`
 
-> 🎨 A shell script to get colors from [Pywal](https://github.com/dylanaraps/pywal) and apply to [Alacritty](https://alacritty.org/config-alacritty.html) TOML config with regular expressions.
+> 🎨 A shell script to get colors from [Pywal](https://github.com/dylanaraps/pywal) and apply to [Alacritty](https://alacritty.org/config-alacritty.html), Ghostty and Kitty.
 
-## 🤔 Why?
-Currently, there's no easy way to send [wal](https://github.com/dylanaraps/pywal/) colors to Alacritty config in macOS. So I wrote this script to auto-update colors as a workaround.
+## Something wierd
+Probably, if you are using  Alacritty, Ghostty or Kitty 
+(because you want to feel cool too), and you are a person who feel boring about the same 
+background image and colors very fast, so maybe you made an script runnig like a 
+totally no sense but asweosome service in your linux system, 
+as is my case, changing the background and enviroments colors each hour, and your favorite 
+applications is calcurse, ranger, or nvim, you could be noticed that the colors is missed 
+when you rezise o run a random action and its nothing that your can do because the Alacritty, for example, don't manage that situation in
+particulary, or maybe it does but  didn't find the way yet, but I found this way fast and 
+rude to do it for now. 
 
 ## 🔽 Setup
 **Dependencies:** `grep`, `sed`
